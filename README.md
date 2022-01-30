@@ -2,7 +2,7 @@
 
 ## About
 
-This is a template repository with the environment configured to build REST APIS using Fastify, Mongoose, Jest and Typescript.
+This is a template repository with the environment configured to build REST APIS using Fastify, Mongoose, Jest, Nodemon and Typescript.
 
 ## How to setup?
 
