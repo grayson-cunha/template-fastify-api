@@ -1,11 +1,13 @@
-import buildApp from './app';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+import App from './app';
 
 async function startServer(): Promise<void> {
-  const server = buildApp();
+  const server = App.build();
 
-  const port = 3000;
-
-  await server.listen(port);
+  await server.listen(process.env.PORT as string);
 
   console.log('Server started successfully');
 }

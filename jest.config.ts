@@ -7,6 +7,7 @@ const config: InitialOptionsTsJest = {
   },
   testMatch: ['**/test/**/*.test.(ts)'],
   preset: 'ts-jest',
+  setupFiles: ['dotenv/config'],
 };
 
 export default config;
