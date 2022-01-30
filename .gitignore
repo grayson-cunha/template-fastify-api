@@ -6,3 +6,4 @@ package-lock.json
 .vscode
 .stryker-tmp
 .DS_Store
+.env
